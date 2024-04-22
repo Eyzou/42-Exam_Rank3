@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gcomlan <gcomlan@student.42.fr>            +#+  +:+       +#+        */
+/*   By: elo <elo@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/08/19 22:10:03 by gcomlan           #+#    #+#             */
-/*   Updated: 2022/08/23 13:00:56 by gcomlan          ###   ########.fr       */
+/*   Created: 2024/04/22 21:08:34 by elo               #+#    #+#             */
+/*   Updated: 2024/04/22 21:10:41 by elo              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h> // For read
 #include <stdlib.h> // For malloc && free
 
-/*#define BUFFER_SIZE 8192*/
+#define BUFFER_SIZE 8192
 
 char	*get_next_line(int fd)
 {
